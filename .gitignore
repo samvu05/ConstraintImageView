@@ -1,3 +1,6 @@
+# Private token
+github.properties
+
 # Built application files
 *.apk
 *.aar

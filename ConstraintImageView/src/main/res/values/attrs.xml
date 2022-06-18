@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ConstraintImageView">
+        <attr name="civ_constraint_by" format="enum">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+            <enum name="smaller" value="2" />
+            <enum name="larger" value="3"/>
+        </attr>
+        <!-- Ratio of width:height, represented by W:H -->
+        <!-- If input is invalid, default ratio will be 1:1 -->
+        <attr name="civ_constraint_ratio" format="string"  />
+    </declare-styleable>
+</resources>
+

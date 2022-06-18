@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    shapeAbleImageView-->
+    <style name="ConstraintImageView.CornerSize8dp" parent="">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ConstraintImageView.CornerSize16dp" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ConstraintImageView.CornerSizeCircle" parent="">
+        <item name="cornerSize">100%</item>
+    </style>
+</resources>

@@ -39,22 +39,22 @@ def getVersionName = { ->
 }
 
 def getArtifactId = { ->
-    return "com.samvd.constraintimageview" // Replace with library name ID
+    return "constraintimageview" // Replace with library name ID
 }
 
 publishing {
     publications {
         bar(MavenPublication) {
-            groupId 'com.enefce.libraries' // Replace with group ID
+            groupId 'com.samvd' // Replace with group ID
             artifactId getArtifactId()
             version getVersionName()
-            artifact("$buildDir/outputs/aar/${getArtifactId()}-release.aar")
+            artifact("$buildDir/outputs/aar/${getArtifactId()}-debug.aar")
         }
     }
 
     repositories {
         maven {
-            name = "GitHubPackages"
+            name = "ConstraintImageView"
             /** Configure path of your package repository on Github
              *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
              */
